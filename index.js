@@ -1,3 +1,4 @@
+// ITERACIONES - PAIR PROGRAMMING
 //VARIABLES
 let variableSinValor;
 let booleano1 = true;
@@ -35,5 +36,47 @@ let sumaPares = 0;
 for (let i = 0; i < 10; i++) {
   if (i % 2 === 0) {
     sumaPares += i;
+  }
+}
+
+// ITERACIONES - PROYECTO INDIVIDUAL
+//VARIABLES
+let variableValorNumerico = 3;
+const MiNombre = "Santy";
+const MiNumeroFav = 7;
+
+// BOLEANOS
+let booleanoOr = booleano1 || booleano2;
+let booleanoMix1 =
+  (booleano1 && TAU / 2 === PI) || variableValorNumerico >= MiNumeroFav;
+let seisNoEsNueve = 6 !== 9;
+let booleanoMix2 =
+  variableValorNumerico > 0 || variableValorNumerico < -(MiNumeroFav * TAU);
+
+// OPERADORES
+let valorSuma = MiNumeroFav + variableValorNumerico;
+let valorResta = MiNumeroFav - variableValorNumerico;
+let valorMultiplicacion = MiNumeroFav * variableValorNumerico;
+let valorDivision = MiNumeroFav / 3;
+
+// BUCLES
+let contarHasta10 = 0;
+
+while (contarHasta10 < 10) {
+  contarHasta10++;
+}
+
+let preI = 0;
+let preJ = 0;
+
+for (let i = 0; i < 11; i++) {
+  preI += ++preJ;
+}
+
+let sumaImpares = 0;
+
+for (let i = 0; i < 10; i++) {
+  if (i % 2 !== 0) {
+    sumaImpares += i;
   }
 }
