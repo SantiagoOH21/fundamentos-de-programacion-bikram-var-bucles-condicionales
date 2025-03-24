@@ -6,7 +6,7 @@ let booleano2 = false;
 const PI = 3.14;
 const TAU = 2 * PI;
 
-// BOLEANOS
+// BOOLEANOS
 booleanoAnd = booleano1 && booleano2;
 booleanoNot = !booleano1;
 booleanoMix0 =
@@ -45,7 +45,7 @@ let variableValorNumerico = 3;
 const MiNombre = "Santy";
 const MiNumeroFav = 7;
 
-// BOLEANOS
+// BOOLEANOS
 let booleanoOr = booleano1 || booleano2;
 let booleanoMix1 =
   (booleano1 && TAU / 2 === PI) || variableValorNumerico >= MiNumeroFav;
